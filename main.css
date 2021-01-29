@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #001821;
+}
+
+.logo__pic {
+  width: 85px;
+  height: 36px;
+  left: 390px;
+  top: 29px;
+}
+
+.main-content__top-banner {
+  color: #FFFFFF;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+.button-highlight {
+  width: 168px;
+  height: 55px;
+  left: 390px;
+  top: 474px;
+  background: #F5170E;
+  border-radius: 35px;;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  align-items: center;
+}
+
+#tours {
+  color: #FFFFFF;
+}
+
+.cards__title {
+  font-weight: 700;
+}
+
+.cards__item {
+  display: inline-block;
+  width: 250px;
+  height: 550px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 5px 5px;
+  color: #303030;
+  margin: 20px;
+  text-align: left;
+}
+
+button.default {
+  color: #F5170E;
+  border: 1px solid #F5170E;
+  box-sizing: border-box;
+  border-radius: 35px;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+  background: #FFFFFF;
+}
