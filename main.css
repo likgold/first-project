@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
+.wrapper {
+  position: relative;
+}
+
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -7,6 +11,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #001821;
+  position: absolute;
+  top: 20px;
+  right: 15%;
+  left: 15%;
 }
 
 .logo__pic {
@@ -56,6 +64,7 @@ p {
   background: #FFFFFF;
   border-radius: 0px 0px 5px 5px;
   color: #303030;
+  padding: 20px;
   margin: 20px;
   text-align: left;
 }
